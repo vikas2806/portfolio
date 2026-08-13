@@ -373,8 +373,9 @@ section {
 
 .hero-avatar-img {
   width: 100%;
-  height: 340px;
+  height: 400px;
   object-fit: cover;
+  object-position: top center;
   display: block;
 }
 
@@ -627,19 +628,7 @@ input.tab-r { display: none; }
   color: var(--color-text-muted);
 }
 
-.skill-bar-bg {
-  width: 100%;
-  height: 5px;
-  background: var(--color-surface-alt);
-  border-radius: 3px;
-  overflow: hidden;
-}
 
-.skill-bar {
-  height: 100%;
-  background: linear-gradient(90deg, var(--color-primary), #60a5fa);
-  border-radius: 3px;
-}
 
 /* Tab filter hiding */
 #tab-lang:checked ~ .skill-grid .skill-card:not([data-cat="lang"]),
