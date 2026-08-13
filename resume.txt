@@ -1,0 +1,29 @@
+Vikas Yadav
++91 9820609671· vikyadav0628@gmail.com · GitHub
+
+ABOUT ME
+Motivated and detail-oriented First-Year Computer Science undergraduate Student with hands-on experience in Frontend Developing.  Proficient in building Fronted Using React and NextJs.
+
+PROJECTS
+         Password Manager 
+•	A platform allowing users to Store Their Passwords
+•	Passwords are saved Permanently With MongoDB and also with LocalStorage
+
+Apple’s Website Clone- Built using NExtJS and ThreeJs 
+•	Apple’s Clone With Animations And 3D Models
+
+EDUCATION
+Watumull Institute of Engineering and Technology
+University Of Mumbai                                                                                                                    2025 – Present                                                                                                                
+Pursuing Bachelor of Engineering in Computer Science.
+
+Rizvi College of Science and Commerce,
+Bandra                                                                                                                                                            2022 – 2024
+Junior College
+
+Malti Jayant Dalal High School Santacruz                                                                                                                                            2012 – 2022
+School
+
+CORE TECHNICAL SKILLS
+•	Web Development  Skills- HTML, CSS, Tailwind CSS, JavaScript, ReactJS, NextJs,Gsap,Motion, ThreeJs and MongoDB 
+•	Programming Language – C, Javascript,c++,python,java
