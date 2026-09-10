@@ -379,43 +379,7 @@ section {
   display: block;
 }
 
-.hero-info-chip {
-  position: absolute;
-  bottom: -16px;
-  left: -16px;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 12px 18px;
-  box-shadow: var(--shadow-md);
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
 
-.chip-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-sm);
-  background: var(--color-primary-light);
-  color: var(--color-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-}
-
-.chip-text strong {
-  display: block;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-text-heading);
-}
-
-.chip-text span {
-  font-size: 0.78rem;
-  color: var(--color-text-muted);
-}
 
 /* ============================================================
    ABOUT SECTION
@@ -531,51 +495,7 @@ section {
   border-bottom: 1px solid var(--color-border-light);
 }
 
-/* Pure CSS tab system */
-.skill-radios { display: none; }
 
-.skill-radios-wrap {
-  display: contents;
-}
-
-/* radio inputs hidden, placed before tabs */
-input.tab-r { display: none; }
-
-.tab-labels {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 36px;
-  border-bottom: 2px solid var(--color-border-light);
-  padding-bottom: 0;
-}
-
-.tab-lbl {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 10px 18px;
-  font-size: 0.88rem;
-  font-weight: 500;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
-  transition: all var(--transition);
-}
-
-.tab-lbl:hover {
-  color: var(--color-text-heading);
-}
-
-#tab-all:checked ~ .tab-labels label[for="tab-all"],
-#tab-lang:checked ~ .tab-labels label[for="tab-lang"],
-#tab-web:checked ~ .tab-labels label[for="tab-web"],
-#tab-db:checked ~ .tab-labels label[for="tab-db"] {
-  color: var(--color-primary);
-  border-bottom-color: var(--color-primary);
-  font-weight: 600;
-}
 
 .skill-grid {
   display: grid;
@@ -630,12 +550,7 @@ input.tab-r { display: none; }
 
 
 
-/* Tab filter hiding */
-#tab-lang:checked ~ .skill-grid .skill-card:not([data-cat="lang"]),
-#tab-web:checked ~ .skill-grid .skill-card:not([data-cat="web"]),
-#tab-db:checked ~ .skill-grid .skill-card:not([data-cat="db"]) {
-  display: none;
-}
+
 
 /* ============================================================
    INTERESTS SECTION
@@ -1007,11 +922,4 @@ input.tab-r { display: none; }
   .section-title { font-size: 1.8rem; }
   .hero-stats { gap: 20px; }
   section { padding: 60px 0; }
-
-  .tab-labels {
-    gap: 0;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 0;
-  }
 }
